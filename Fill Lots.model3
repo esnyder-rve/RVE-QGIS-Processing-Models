@@ -500,7 +500,11 @@
       <Option value="true" name="supports_non_file_outputs" type="bool"/>
     </Option>
   </Option>
-  <Option name="parameterOrder"/>
+  <Option name="parameterOrder" type="StringList">
+    <Option value="points" type="QString"/>
+    <Option value="linework" type="QString"/>
+    <Option value="buffer_distance" type="QString"/>
+  </Option>
   <Option name="parameters" type="Map">
     <Option name="buffer_distance" type="Map">
       <Option value="" name="color" type="QString"/>
